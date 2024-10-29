@@ -65,7 +65,7 @@ export const Contact =() =>{
                 <div className="container grid grid-two-cols">
                     <div className="registration-img">
                         
-                        <img src="/images/img2.png" alt="register img" width="500" height="500"></img>
+                        <img src="/images/b1.png" alt="register img" width="500" height="500"></img>
                     </div>
                     <div className="section-form">
                         <br /><br /><br />

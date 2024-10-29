@@ -61,10 +61,10 @@ export const Register = () => {
             <div className="section-reg">
                 <div className="container grid grid-two-cols">
                     <div className="registration-img">
-                        <img src="/images/img.png" alt="register img" width="500" height="500"></img>
+                        <img src="/images/b3.png" alt="register img" width="500" height="500"></img>
                     </div>
                     <div className="registration-form">
-                        <h1 className="main-heading mb-3">Registration Form</h1>
+                        <h1 className="main-heading mb-3">Sign-Up</h1>
                         <br></br>
                         <form onSubmit={handleSubmit}>
                             <div>

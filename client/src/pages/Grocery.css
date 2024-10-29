@@ -1,0 +1,14 @@
+.m-2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.card-content p{
+    font-size: 20px;
+}
+
+.card-content h2{
+    font-size: 25px;
+}

@@ -6,6 +6,7 @@ const authRoute=require("./router/auth");
 const contactRoute=require("./router/contact");
 const serviceRoute=require("./router/service");
 const adminRoute=require("./router/admin");
+const ItemRoute=require("./router/item");
 const connectDB=require("./util/db");
 const errorMiddleware = require("./middlewares/error-middleware");
 
@@ -20,7 +21,8 @@ app.use(express.json());
 app.use("/api/auth",authRoute);
 app.use("/api/form",contactRoute);
 app.use("/api/data",serviceRoute);
-app.use("/api/admin",adminRoute)
+app.use("/api/admin",adminRoute);
+app.use("/api/item",ItemRoute);
 
 
 

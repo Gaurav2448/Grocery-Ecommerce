@@ -8,7 +8,8 @@ export const AdminLayout=()=>{
                 <ul>
                     <li><NavLink to="/admin/users"><FaUser /> users</NavLink> </li>
                     <li><NavLink to="/admin/contacts">contacts</NavLink></li>
-                    <li><NavLink to="/admin/users">Services</NavLink></li>
+                    <li><NavLink to="/admin/items">Items</NavLink></li>
+                    <li><NavLink to="/admin/additems">Add-Item</NavLink></li>
                     <li><NavLink to="/">Home</NavLink></li>
                 </ul>
             </nav>
